@@ -1,0 +1,9 @@
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.pdb
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/defaultuser/Desktop/FinalmobileappsprojectV1.1/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.pdb

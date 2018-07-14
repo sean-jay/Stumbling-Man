@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{A5E94C6B-46E3-42A1-AC89-7EAA1D5D49C3}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>StumblingMan</RootNamespace>
+    <AssemblyName>StumblingMan</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>44966</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>49300</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Spaceship.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Spaceship.imageset\Spaceship.png" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Sidewalk.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Stumbler-1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Stumbler-1.imageset\stumbler_stand.png" />
+    <ImageAsset Include="Assets.xcassets\Stumbler-2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Stumbler-3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Stumbler-4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Stumbler-2.imageset\stumbler_leftstep.png" />
+    <ImageAsset Include="Assets.xcassets\Stumbler-3.imageset\stumbler_stand.png" />
+    <ImageAsset Include="Assets.xcassets\Stumbler-4.imageset\stumbler_rightstep.png" />
+    <ImageAsset Include="Assets.xcassets\Sidewalk.imageset\sidewalk.png" />
+    <ImageAsset Include="Assets.xcassets\Death-1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Death-2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Death-3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Death-4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Death-1.imageset\Rght.png" />
+    <ImageAsset Include="Assets.xcassets\Death-2.imageset\Front.png" />
+    <ImageAsset Include="Assets.xcassets\Death-3.imageset\Left.png" />
+    <ImageAsset Include="Assets.xcassets\Death-4.imageset\Back.png" />
+    <ImageAsset Include="Assets.xcassets\Road.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Building.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Taxi.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Truck.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Viper.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Road.imageset\roadNS.jpg" />
+    <ImageAsset Include="Assets.xcassets\Building.imageset\building.png" />
+    <ImageAsset Include="Assets.xcassets\Taxi.imageset\taxi.png" />
+    <ImageAsset Include="Assets.xcassets\Truck.imageset\Mini_truck.png" />
+    <ImageAsset Include="Assets.xcassets\Viper.imageset\Black_viper.png" />
+    <ImageAsset Include="Assets.xcassets\testenemy.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\testenemy.imageset\stumbler_front.png" />
+    <ImageAsset Include="Assets.xcassets\trash-1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\trash-1.imageset\dk3dtrashcan-0.png" />
+    <ImageAsset Include="Assets.xcassets\trash-2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\trash-2.imageset\dk3dtrashcan-1.png" />
+    <ImageAsset Include="Assets.xcassets\trash-3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\trash-3.imageset\dk3dtrashcan-2.png" />
+    <ImageAsset Include="Assets.xcassets\trash-4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\trash-4.imageset\dk3dtrashcan-3.png" />
+    <ImageAsset Include="Assets.xcassets\pauseButton.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\overlay.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\overlay.imageset\photo.jpg" />
+    <ImageAsset Include="Assets.xcassets\pauseButton.imageset\56763.png" />
+    <ImageAsset Include="Assets.xcassets\walker-1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\walker-2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\walker-3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\walker-4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\walker-1.imageset\1.png" />
+    <ImageAsset Include="Assets.xcassets\walker-2.imageset\2.png" />
+    <ImageAsset Include="Assets.xcassets\walker-3.imageset\1.png" />
+    <ImageAsset Include="Assets.xcassets\walker-4.imageset\0.png" />
+    <ImageAsset Include="Assets.xcassets\intro.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\intro.imageset\instructions-2.png" />
+    <ImageAsset Include="Assets.xcassets\help.imageset\Button-Help-icon.png" />
+    <ImageAsset Include="Assets.xcassets\help.imageset\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\Sidewalk.imageset\" />
+    <Folder Include="Assets.xcassets\Stumbler-1.imageset\" />
+    <Folder Include="Assets.xcassets\Stumbler-2.imageset\" />
+    <Folder Include="Assets.xcassets\Stumbler-3.imageset\" />
+    <Folder Include="Assets.xcassets\Stumbler-4.imageset\" />
+    <Folder Include="Assets.xcassets\Death-1.imageset\" />
+    <Folder Include="Assets.xcassets\Death-2.imageset\" />
+    <Folder Include="Assets.xcassets\Death-3.imageset\" />
+    <Folder Include="Assets.xcassets\Death-4.imageset\" />
+    <Folder Include="Assets.xcassets\Road.imageset\" />
+    <Folder Include="Assets.xcassets\Building.imageset\" />
+    <Folder Include="Assets.xcassets\Taxi.imageset\" />
+    <Folder Include="Assets.xcassets\Truck.imageset\" />
+    <Folder Include="Assets.xcassets\Viper.imageset\" />
+    <Folder Include="Assets.xcassets\testenemy.imageset\" />
+    <Folder Include="Assets.xcassets\trash-1.imageset\" />
+    <Folder Include="Assets.xcassets\trash-2.imageset\" />
+    <Folder Include="Assets.xcassets\trash-3.imageset\" />
+    <Folder Include="Assets.xcassets\trash-4.imageset\" />
+    <Folder Include="Assets.xcassets\pauseButton.imageset\" />
+    <Folder Include="Assets.xcassets\overlay.imageset\" />
+    <Folder Include="Assets.xcassets\walker-1.imageset\" />
+    <Folder Include="Assets.xcassets\walker-2.imageset\" />
+    <Folder Include="Assets.xcassets\walker-3.imageset\" />
+    <Folder Include="Assets.xcassets\walker-4.imageset\" />
+    <Folder Include="Assets.xcassets\intro.imageset\" />
+    <Folder Include="Assets.xcassets\help.imageset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="GameScene.sks" />
+    <BundleResource Include="Resources\playerDeath.wav" />
+    <BundleResource Include="Resources\gameTitle.wav" />
+    <BundleResource Include="Resources\walking.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="GameViewController.cs" />
+    <Compile Include="GameViewController.designer.cs">
+      <DependentUpon>GameViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameScene.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

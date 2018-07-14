@@ -1,0 +1,36 @@
+/Users/seanjay/Projects/StumblingMan/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/seanjay/Projects/StumblingMan/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.pdb
+/Users/seanjay/Projects/StumblingMan/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/seanjay/Projects/StumblingMan/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_PartialAppManifest.items
+/Users/seanjay/Projects/StumblingMan/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
+/Users/seanjay/Projects/StumblingMan/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/
+/Users/seanjay/Projects/StumblingMan/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.csproj.CoreCompileInputs.cache
+/Users/seanjay/Projects/StumblingMan/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/seanjay/Projects/StumblingMan/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.pdb
+/Users/seanjay/repos/stumblingman/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/seanjay/repos/stumblingman/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.pdb
+/Users/seanjay/repos/stumblingman/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/seanjay/repos/stumblingman/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_PartialAppManifest.items
+/Users/seanjay/repos/stumblingman/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
+/Users/seanjay/repos/stumblingman/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/
+/Users/seanjay/repos/stumblingman/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.csproj.CoreCompileInputs.cache
+/Users/seanjay/repos/stumblingman/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/seanjay/repos/stumblingman/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.pdb
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.pdb
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_PartialAppManifest.items
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.csproj.CoreCompileInputs.cache
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/seanjay/Downloads/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.pdb
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_PartialAppManifest.items
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.csproj.CoreCompileInputs.cache
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/obj/iPhoneSimulator/Debug/StumblingMan.pdb
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.exe
+/Users/seanjay/Downloads/jerimiah update6-2/StumblingMan/bin/iPhoneSimulator/Debug/StumblingMan.pdb

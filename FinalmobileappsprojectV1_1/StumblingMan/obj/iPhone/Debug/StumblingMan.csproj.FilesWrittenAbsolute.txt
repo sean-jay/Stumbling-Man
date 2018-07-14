@@ -1,0 +1,9 @@
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhone/Debug/optimized/
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/bin/iPhone/Debug/StumblingMan.pdb
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/bin/iPhone/Debug/StumblingMan.exe
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhone/Debug/StumblingMan.exe
+/Users/defaultuser/Desktop/mobile_final-stumblingman-9dec6bfcfe98/StumblingMan/obj/iPhone/Debug/StumblingMan.pdb
